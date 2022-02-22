@@ -1,5 +1,6 @@
 import { Container, Grid, Typography } from '@mui/material';
 import React from 'react';
+import Footer from '../Footer/Footer';
 
 const Main = () => {
   return (
@@ -11,7 +12,7 @@ const Main = () => {
           direction='column'
           alignItems='center'
           justifyContent='center'
-          style={{ minHeight: '70vh' }}
+          style={{ minHeight: '83vh' }}
         >
           <Grid item>
             <Typography variant='h5' align='center'>
@@ -22,6 +23,7 @@ const Main = () => {
             </Typography>
           </Grid>
         </Grid>
+        <Footer />
       </Container>
     </>
   );
