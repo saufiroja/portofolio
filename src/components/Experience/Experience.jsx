@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from '@mui/material';
+import { Box, Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 const Experience = () => {
@@ -10,6 +10,15 @@ const Experience = () => {
             Experience
           </Typography>
         </Box>
+      </Container>
+      <Container maxWidth='lg'>
+        <Grid>
+          <Grid item xs={12} sm={4} md={4}>
+            <Typography variant='h6'>
+              Currently looking for experience🧐
+            </Typography>
+          </Grid>
+        </Grid>
       </Container>
     </>
   );
