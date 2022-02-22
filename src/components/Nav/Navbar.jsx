@@ -85,6 +85,9 @@ const Navbar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
+              <MenuItem onClick={handleHome}>
+                <Typography textAlign='center'>Home</Typography>
+              </MenuItem>
               <MenuItem onClick={handleAbout}>
                 <Typography textAlign='center'>About</Typography>
               </MenuItem>
@@ -112,6 +115,12 @@ const Navbar = () => {
             Muhammad Saufi Roja
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            <Button
+              onClick={handleHome}
+              sx={{ color: 'white', display: 'block' }}
+            >
+              Home
+            </Button>
             <Button
               onClick={handleAbout}
               sx={{ color: 'white', display: 'block' }}
