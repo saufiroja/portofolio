@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <Container maxWidth='lg'>
-        <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 5 }}>
+        <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 3 }}>
           <Typography variant='h5' align='center'>
             About Me
           </Typography>
