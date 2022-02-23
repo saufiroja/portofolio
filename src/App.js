@@ -7,9 +7,9 @@ import {
   Experience,
   Main,
   Navbar,
-  Projects,
   Skills,
 } from './components';
+import Projects from './pages/Projects/Projects';
 
 const App = () => {
   return (
