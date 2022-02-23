@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <>
       <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 3 }}>
-        <Container maxWidth='md'>
+        <Container maxWidth='lg'>
           <Typography variant='h5' align='center'>
             Skill
           </Typography>
