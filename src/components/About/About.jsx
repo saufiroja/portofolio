@@ -37,15 +37,15 @@ const About = () => {
           </Link>{' '}
           for more information, or you can find me on my social media:
         </Typography>
-        <Box display='flex' px={{ xs: 10, sm: 1 }} py={{ xs: 5, sm: 2 }}>
-          <Box pr={3}>
+        <Grid container spacing={2} justifyContent='start' pt={1}>
+          <Grid item>
             <Link href='https://www.instagram.com/saufiroja_' underline='none'>
               <Button variant='contained' color='error'>
                 <Instagram fontSize='small' /> Instagram
               </Button>
             </Link>
-          </Box>
-          <Box px={3}>
+          </Grid>
+          <Grid item>
             <Link href='https://github.com/saufiroja' underline='none'>
               <Button
                 variant='contained'
@@ -59,8 +59,8 @@ const About = () => {
                 <GitHub fontSize='small' /> Github
               </Button>
             </Link>
-          </Box>
-          <Box px={3}>
+          </Grid>
+          <Grid item>
             <Link
               href='https://www.linkedin.com/in/muhammad-saufi-roja-11427a1b8/'
               underline='none'
@@ -69,8 +69,8 @@ const About = () => {
                 <LinkedIn fontSize='small' /> LinkedIn
               </Button>
             </Link>
-          </Box>
-        </Box>
+          </Grid>
+        </Grid>
       </Container>
     </>
   );
