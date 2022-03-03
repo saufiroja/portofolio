@@ -19,7 +19,7 @@ const About = () => {
           </Grid>
           <Grid item xs={12} sm={8} md={8}>
             <Box>
-              <Typography variant='h6'>
+              <Typography variant='h6' align='justify'>
                 Hello, My name is Muhammad Saufi Roja, you can call me oja. I'm
                 a backend developer. I am currently 20 years old and I live in
                 Banjarmasin, South Kalimantan. I started learning about web
@@ -31,7 +31,7 @@ const About = () => {
           </Grid>
         </Grid>
         <Typography variant='body2' pt={1}>
-          You can reach me via Email at{' '}
+          You can leave a message via Email at{' '}
           <Link href='mailto:muhammadsaufiroja@gmail.com'>
             muhammadsaufiroja@gmail.com
           </Link>{' '}
