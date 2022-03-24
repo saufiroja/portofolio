@@ -44,6 +44,30 @@ const Certificate = () => {
             >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
+                image='/assets/img/fcc.png'
+              />
+              <CardContent sx={{ flexGrow: 1 }}>
+                <Typography variant='subtitle2'>
+                  Freecodecamp Back End Development APIs
+                </Typography>
+                <Link
+                  href='https://www.freecodecamp.org/certification/saufiroja/back-end-development-and-apis'
+                  underline='none'
+                  blank
+                >
+                  <Button variant='contained' size='small'>
+                    View
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
+              <CardMedia
+                sx={{ paddingTop: '70%' }}
                 image='/assets/img/JavaScriptDasar.jpg'
               />
 
