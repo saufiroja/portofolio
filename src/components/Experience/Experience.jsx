@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import React from 'react';
 
 const Experience = () => {
@@ -12,13 +12,23 @@ const Experience = () => {
         </Box>
       </Container>
       <Container maxWidth='lg'>
-        <Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Typography variant='h6'>
-              Currently looking for experience🧐
-            </Typography>
-          </Grid>
-        </Grid>
+        <Box pb={1}>
+          <Typography variant='h6'>Full-Stack Web Development</Typography>
+        </Box>
+        <Box borderBottom={1} pb={1}>
+          <Typography variant='body1'>Binar Academy</Typography>
+          <Typography variant='body1' pb={1}>
+            August 2021 - March 2022
+          </Typography>
+          <Typography variant='body1' sx={{ color: 'gray' }}>
+            - Developing REST APIs using NodeJS, Javascript
+            <br />
+            - Evaluated and analyzed performance from the Trello every 1 week
+            <br />
+            - Deploy web using heroku and netlify
+            <br />- Creating a working directory using github
+          </Typography>
+        </Box>
       </Container>
     </>
   );

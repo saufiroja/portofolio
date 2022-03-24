@@ -24,7 +24,24 @@ const Certificate = () => {
       <Container maxWidth='lg'>
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
+              <CardMedia
+                sx={{ paddingTop: '70%' }}
+                image='/assets/img/binar.jpg'
+              />
+              <CardContent sx={{ flexGrow: 1 }}>
+                <Typography variant='subtitle2'>
+                  Binar Academy Full-Stack Web development
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/JavaScriptDasar.jpg'
@@ -45,7 +62,9 @@ const Certificate = () => {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/JavaScriptOOP.jpg'
@@ -66,7 +85,9 @@ const Certificate = () => {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/JavaScriptStandardLibrary.jpg'
@@ -86,7 +107,9 @@ const Certificate = () => {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/git.png'
@@ -104,7 +127,9 @@ const Certificate = () => {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/javascript.png'
@@ -122,7 +147,9 @@ const Certificate = () => {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/nestjs.jpg'
@@ -140,7 +167,9 @@ const Certificate = () => {
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card sx={{ display: 'flex', flexDirection: 'column' }}>
+            <Card
+              sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}
+            >
               <CardMedia
                 sx={{ paddingTop: '70%' }}
                 image='/assets/img/postgres.jpg'

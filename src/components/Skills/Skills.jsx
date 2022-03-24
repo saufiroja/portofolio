@@ -9,7 +9,7 @@ const frontend = [
   'React JS',
   'Next JS',
 ];
-const backend = ['Node.js', 'Mongo DB', 'PostgreSQL', 'Nest Js'];
+const backend = ['Node.js', 'Mongo DB', 'PostgreSQL', 'Nest Js', 'Docker'];
 const tools = ['Git', 'Postman', 'Trello'];
 
 const Skills = () => {

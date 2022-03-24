@@ -18,7 +18,7 @@ const Education = () => {
         <Box borderBottom={1} pb={1}>
           <Typography variant='body1'>Binar Academy</Typography>
           <Typography variant='body1'>
-            17 August 2021 - 16 Maret 2022
+            11 August 2021 - 18 March 2022
           </Typography>
         </Box>
         <Box pb={1} pt={1}>
@@ -26,7 +26,9 @@ const Education = () => {
         </Box>
         <Box borderBottom={1} pb={1}>
           <Typography variant='body1'>FreeCodeCamp</Typography>
-          <Typography variant='body1'>01 December 2021 - NOW</Typography>
+          <Typography variant='body1'>
+            01 December 2021 - 18 March 2022
+          </Typography>
         </Box>
       </Container>
     </>
