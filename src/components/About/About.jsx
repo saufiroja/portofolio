@@ -13,19 +13,21 @@ const About = () => {
             About Me
           </Typography>
         </Box>
-        <Grid container spacing={3} borderBottom={1} paddingBottom={10}>
-          <Grid item xs={12} sm={4} md={4}>
-            <img src={Logo} alt='' />
-          </Grid>
+        <Grid
+          container
+          justifyContent='center'
+          spacing={3}
+          borderBottom={1}
+          paddingBottom={7}
+        >
           <Grid item xs={12} sm={8} md={8}>
             <Box>
               <Typography variant='h6' align='justify'>
                 Hello, My name is Muhammad Saufi Roja, you can call me oja. I'm
-                a backend developer. I am currently 20 years old and I live in
-                Banjarmasin, South Kalimantan. I started learning about web
-                programming in 2021 with my first language being javascript, but
-                now I'm more interested and explore a lot about backend
-                development, especially on node.js
+                a backend developer. I'm 20 years old and I live in Banjarmasin,
+                South Kalimantan. I started learning about web programming in
+                2021 with my first language being javascript, but now I'm more
+                interested and explore a lot about backend development.
               </Typography>
             </Box>
           </Grid>
