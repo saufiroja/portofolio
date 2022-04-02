@@ -2,8 +2,6 @@ import { GitHub, Instagram, LinkedIn } from '@mui/icons-material';
 import { Box, Button, Container, Grid, Link, Typography } from '@mui/material';
 import React from 'react';
 
-import Logo from '../../assets/logo.svg';
-
 const About = () => {
   return (
     <>
