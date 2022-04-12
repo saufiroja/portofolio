@@ -8,22 +8,16 @@ const Projects = () => {
       <Container maxWidth='md'>
         <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 3 }}>
           <Typography variant='h5' align='center'>
-            Projects
+            My Project
           </Typography>
         </Box>
       </Container>
 
       <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 3 }}>
-        <Typography variant='h5' align='center'>
-          Frontend
-        </Typography>
         <Frontend />
       </Box>
 
       <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 3 }}>
-        <Typography variant='h5' align='center'>
-          Backend
-        </Typography>
         <Backend />
       </Box>
     </>
