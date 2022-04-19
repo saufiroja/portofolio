@@ -18,10 +18,13 @@ const About = () => {
             <Typography variant='h6'>
               Hello, My name is Muhammad Saufi Roja, you can call me oja. I'm a
               backend developer. I'm {getAge()} years old and I live in
-              Banjarmasin, South Kalimantan. I started learning about web
-              programming in 2021 with my first language being javascript, but
-              now I'm more interested and explore a lot about backend
-              development.
+              Banjarmasin, South Kalimantan.
+            </Typography>
+            <br />
+            <Typography variant='h6'>
+              I started learning about web programming in 2021 with my first
+              language being javascript, but now I'm more interested and explore
+              a lot about backend development.
             </Typography>
           </Grid>
         </Grid>
