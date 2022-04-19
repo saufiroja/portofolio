@@ -2,42 +2,39 @@ import { GitHub, Instagram, LinkedIn } from '@mui/icons-material';
 import { Box, Button, Container, Grid, Link, Typography } from '@mui/material';
 import React from 'react';
 
+import { getAge } from '../../lib/age';
+
 const About = () => {
   return (
     <>
-      <Container maxWidth='lg'>
+      <Container maxWidth='md'>
         <Box px={{ xs: 5, sm: 5 }} py={{ xs: 5, sm: 3 }}>
           <Typography variant='h5' align='center'>
             About Me
           </Typography>
         </Box>
-        <Grid
-          container
-          justifyContent='center'
-          spacing={3}
-          borderBottom={1}
-          paddingBottom={7}
-        >
-          <Grid item xs={12} sm={8} md={8}>
-            <Box>
-              <Typography variant='h6' align='justify'>
-                Hello, My name is Muhammad Saufi Roja, you can call me oja. I'm
-                a backend developer. I'm 20 years old and I live in Banjarmasin,
-                South Kalimantan. I started learning about web programming in
-                2021 with my first language being javascript, but now I'm more
-                interested and explore a lot about backend development.
-              </Typography>
-            </Box>
+        <Grid container justifyContent='start' spacing={3} paddingBottom={4}>
+          <Grid item xs={12} sm={12} md={12}>
+            <Typography variant='h6'>
+              Hello, My name is Muhammad Saufi Roja, you can call me oja. I'm a
+              backend developer. I'm {getAge()} years old and I live in
+              Banjarmasin, South Kalimantan. I started learning about web
+              programming in 2021 with my first language being javascript, but
+              now I'm more interested and explore a lot about backend
+              development.
+            </Typography>
           </Grid>
         </Grid>
-        <Typography variant='body2' pt={1}>
+      </Container>
+      <Container maxWidth='md'>
+        <Typography variant='body1' borderTop={1} pt={1}>
           You can leave a message via Email at{' '}
           <Link href='mailto:muhammadsaufiroja@gmail.com'>
             muhammadsaufiroja@gmail.com
           </Link>{' '}
           for more information, or you can find me on my social media:
         </Typography>
-        <Grid container spacing={2} justifyContent='start' pt={1}>
+        <Grid container spacing={2} pt={1}>
           <Grid item>
             <Link href='https://www.instagram.com/saufiroja_' underline='none'>
               <Button variant='contained' color='error'>
