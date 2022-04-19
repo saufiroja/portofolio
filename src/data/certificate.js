@@ -3,7 +3,7 @@ export const certificate = [
     id: '1',
     title: 'Binar Academy Full-Stack Web Development',
     image: '/assets/img/binar.jpg',
-    link: '',
+    link: '*',
   },
   {
     id: '2',

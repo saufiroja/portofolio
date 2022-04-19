@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+
 import {
   About,
   Certificate,
@@ -8,6 +9,7 @@ import {
   Main,
   Navbar,
   Skills,
+  NotFound,
 } from './components';
 import Projects from './pages/Projects/Projects';
 
@@ -23,6 +25,7 @@ const App = () => {
         <Route path='/education' element={<Education />} />
         <Route path='/certificate' element={<Certificate />} />
         <Route path='/experience' element={<Experience />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </>
   );

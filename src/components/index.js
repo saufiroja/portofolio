@@ -7,3 +7,4 @@ export { default as Education } from './Education/Education';
 export { default as Skills } from './Skills/Skills';
 export { default as Backend } from './Projects/backend/Backend';
 export { default as Frontend } from './Projects/frontend/Frontend';
+export { default as NotFound } from './404/404notfound';
