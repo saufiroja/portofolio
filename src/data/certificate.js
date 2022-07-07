@@ -53,4 +53,10 @@ export const certificate = [
     image: '/assets/img/postgres.jpg',
     link: 'https://www.udemy.com/certificate/UC-0b253675-22d8-4527-b578-f6ca11647d5c/',
   },
+  {
+    id: '10',
+    title: 'Pemrograman Go-Lang : Pemula Sampai Mahir',
+    image: '/assets/img/golang.jpg',
+    link: 'https://www.udemy.com/certificate/UC-d3b34592-8c8e-49f2-9c6e-56f353becc49/',
+  },
 ];
