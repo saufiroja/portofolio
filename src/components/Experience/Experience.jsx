@@ -13,6 +13,23 @@ const Experience = () => {
       </Container>
       <Container maxWidth='lg'>
         <Box pb={1}>
+          <Typography variant='h6'>Maintener</Typography>
+        </Box>
+        <Box borderBottom={1} pb={1}>
+          <Typography variant='body1'>Bellshade</Typography>
+          <Typography variant='body1' pb={1}>
+            July 2022 - present
+          </Typography>
+          <Typography variant='body1' sx={{ color: 'gray' }}>
+            - Maintained code repository in Github
+            <br />
+            - Learned how to contribute on Open-Source Project
+            <br />
+            - Made free learning resource for Indonesian Learner
+            <br />- https://github.com/bellshade/Golang
+          </Typography>
+        </Box>
+        <Box pb={1}>
           <Typography variant='h6'>Full-Stack Web Development</Typography>
         </Box>
         <Box borderBottom={1} pb={1}>
