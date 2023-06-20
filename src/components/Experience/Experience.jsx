@@ -1,6 +1,8 @@
 import { Box, Container, Typography } from '@mui/material';
 import React from 'react';
 
+import { experience } from '../../data/experience';
+
 const Experience = () => {
   return (
     <>
@@ -12,6 +14,31 @@ const Experience = () => {
         </Box>
       </Container>
       <Container maxWidth='lg'>
+        {experience.map((item, index) => () => {
+          return (
+            <>
+              <Box pb={1} key={index}>
+                <Typography variant='h6'>{item.title}</Typography>
+              </Box>
+              <Box borderBottom={1} pb={1} key={index}>
+                <Typography variant='body1'>{item.name}</Typography>
+                <Typography variant='body1' pb={1}>
+                  {item.date}
+                </Typography>
+                <Typography variant='body1' sx={{ color: 'gray' }}>
+                  {item.description.map((item, index) => () => {
+                    return (
+                      <>
+                        - {item}
+                        <br />
+                      </>
+                    );
+                  })}
+                </Typography>
+              </Box>
+            </>
+          );
+        })}
         <Box pb={1}>
           <Typography variant='h6'>Back End Developer</Typography>
         </Box>
@@ -29,42 +56,6 @@ const Experience = () => {
             performance
             <br />- Cooperating with the team in the process of building the
             application
-          </Typography>
-        </Box>
-        <Box pb={1}>
-          <Typography variant='h6'>Back End Developer</Typography>
-        </Box>
-        <Box borderBottom={1} pb={1}>
-          <Typography variant='body1'>Moto Hexagon</Typography>
-          <Typography variant='body1' pb={1}>
-            June 2023 - June 2023
-          </Typography>
-          <Typography variant='body1' sx={{ color: 'gray' }}>
-            - Develop REST API using Golang
-            <br />
-            - Design and analyze database
-            <br />
-            - Deploy API using VPS and Docker
-            <br />
-            - Build Unit Test and Stress Test
-            <br />- Intergration Payment Gateway
-          </Typography>
-        </Box>
-        <Box pb={1}>
-          <Typography variant='h6'>Full Stack Web Development</Typography>
-        </Box>
-        <Box borderBottom={1} pb={1}>
-          <Typography variant='body1'>Binar Academy</Typography>
-          <Typography variant='body1' pb={1}>
-            August 2021 - March 2022
-          </Typography>
-          <Typography variant='body1' sx={{ color: 'gray' }}>
-            - Developing REST APIs using NodeJS, Javascript
-            <br />
-            - Evaluated and analyzed performance from the Trello every 1 week
-            <br />
-            - Deploy web using heroku and netlify
-            <br />- Creating a working directory using github
           </Typography>
         </Box>
       </Container>
