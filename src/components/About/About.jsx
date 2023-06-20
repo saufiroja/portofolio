@@ -16,15 +16,9 @@ const About = () => {
         <Grid container justifyContent='start' spacing={3} paddingBottom={4}>
           <Grid item xs={12} sm={12} md={12}>
             <Typography variant='h6'>
-              Hello, My name is Muhammad Saufi Roja, you can call me oja. I'm a
-              backend developer. I'm {getAge()} years old and I live in
-              Banjarmasin, South Kalimantan.
-            </Typography>
-            <br />
-            <Typography variant='h6'>
-              I started learning about web programming in 2021 with my first
-              language being javascript, but now I'm more interested and explore
-              a lot about backend development.
+            I am a software developer with experience in developing applications using the Go language and several related technologies such as Redis, MongoDB, and Postgres, docker, graphql, gRPC, as well as the Testify unit testing framework to ensure applications run smoothly.
+            <br/>
+I am passionate about exploring the latest technologies and learning about new ways to improve the quality and efficiency of app development
             </Typography>
           </Grid>
         </Grid>
