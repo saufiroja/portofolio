@@ -2,9 +2,30 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 const languages = ['Javascript', 'Typescript', 'Go'];
-const frontend = ['HTML & CSS', 'Bootstrap', 'Material UI', 'React JS'];
-const backend = ['NodeJS', 'Mongo DB', 'PostgreSQL', 'Nestjs', 'Docker'];
-const tools = ['Git', 'Postman', 'Trello', 'Visual Studio Code'];
+const frontend = ['HTML & CSS', 'Bootstrap', 'Material UI', 'React JS', 'NextJS'];
+const backend = [
+  'NodeJS',
+  'Mongo DB',
+  'PostgreSQL', 
+  'Nestjs', 
+  'Docker', 
+  'Redis', 
+  'GraphQL', 
+  'gRPC',
+  'MySQL',
+  'Unit Test',
+  'Elasticsearch',
+  'Amazon S3'
+];
+const tools = [
+  'Git', 
+  'Postman', 
+  'Trello', 
+  'Visual Studio Code',
+  'Goland',
+  'JIRA',
+  'Swagger'
+];
 
 const Skills = () => {
   return (
