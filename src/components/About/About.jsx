@@ -2,8 +2,6 @@ import { GitHub, Instagram, LinkedIn } from '@mui/icons-material';
 import { Box, Button, Container, Grid, Link, Typography } from '@mui/material';
 import React from 'react';
 
-import { getAge } from '../../lib/age';
-
 const About = () => {
   return (
     <>
@@ -16,9 +14,14 @@ const About = () => {
         <Grid container justifyContent='start' spacing={3} paddingBottom={4}>
           <Grid item xs={12} sm={12} md={12}>
             <Typography variant='h6'>
-            I am a software developer with experience in developing applications using the Go language and several related technologies such as Redis, MongoDB, and Postgres, docker, graphql, gRPC, as well as the Testify unit testing framework to ensure applications run smoothly.
-            <br/>
-I am passionate about exploring the latest technologies and learning about new ways to improve the quality and efficiency of app development
+              I am a software developer with experience in developing
+              applications using the Go language and several related
+              technologies such as Redis, MongoDB, and Postgres, docker,
+              graphql, gRPC, as well as the Testify unit testing framework to
+              ensure applications run smoothly.
+              <br />I am passionate about exploring the latest technologies and
+              learning about new ways to improve the quality and efficiency of
+              app development
             </Typography>
           </Grid>
         </Grid>
