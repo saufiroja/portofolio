@@ -19,6 +19,7 @@ const About = () => {
               technologies such as Redis, MongoDB, and Postgres, docker,
               graphql, gRPC, as well as the Testify unit testing framework to
               ensure applications run smoothly.
+              <br />
               <br />I am passionate about exploring the latest technologies and
               learning about new ways to improve the quality and efficiency of
               app development
