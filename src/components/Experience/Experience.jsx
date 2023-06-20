@@ -12,7 +12,7 @@ const Experience = () => {
         </Box>
       </Container>
       <Container maxWidth='lg'>
-      <Box pb={1}>
+        <Box pb={1}>
           <Typography variant='h6'>Back End Developer</Typography>
         </Box>
         <Box borderBottom={1} pb={1}>
@@ -25,9 +25,10 @@ const Experience = () => {
             <br />
             - Designing and developing advanced backend platform
             <br />
-            - Maintain code quality above the bar Fix and improve application performance
-            <br />
-            - Cooperating with the team in the process of building the application- The focus will be on back/end Go development - Designing and developing advanced backend platform - Maintain code quality above the bar Fix and improve application performance - Cooperating with the team in the process of building the application
+            - Maintain code quality above the bar Fix and improve application
+            performance
+            <br />- Cooperating with the team in the process of building the
+            application
           </Typography>
         </Box>
         <Box pb={1}>
@@ -37,6 +38,16 @@ const Experience = () => {
           <Typography variant='body1'>Moto Hexagon</Typography>
           <Typography variant='body1' pb={1}>
             June 2023 - June 2023
+          </Typography>
+          <Typography variant='body1' sx={{ color: 'gray' }}>
+            - Develop REST API using Golang
+            <br />
+            - Design and analyze database
+            <br />
+            - Deploy API using VPS and Docker
+            <br />
+            - Build Unit Test and Stress Test
+            <br />- Intergration Payment Gateway
           </Typography>
         </Box>
         <Box pb={1}>
