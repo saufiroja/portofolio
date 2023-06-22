@@ -17,10 +17,10 @@ const Experience = () => {
         {experience.map((item, index) => () => {
           return (
             <>
-              <Box pb={1} key={index}>
+              <Box pb={1} key={item.id}>
                 <Typography variant='h6'>{item.title}</Typography>
               </Box>
-              <Box borderBottom={1} pb={1} key={index}>
+              <Box borderBottom={1} pb={1} key={item.id}>
                 <Typography variant='body1'>{item.name}</Typography>
                 <Typography variant='body1' pb={1}>
                   {item.date}
